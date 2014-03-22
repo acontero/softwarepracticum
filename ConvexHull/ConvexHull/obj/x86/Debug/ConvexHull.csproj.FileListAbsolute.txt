@@ -23,3 +23,7 @@ E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\Conv
 E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csproj.GenerateResource.Cache
 E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\bin\Debug\ConvexHull.exe
 E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\bin\Debug\ConvexHull.pdb
+Z:\Desktop\SP Visual Studio\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+Z:\Desktop\SP Visual Studio\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+\\psf\Home\Desktop\SP Visual Studio\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+\\psf\Home\Desktop\SP Visual Studio\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
