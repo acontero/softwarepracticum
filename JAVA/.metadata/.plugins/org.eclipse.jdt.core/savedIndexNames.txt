@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\SOFTWARE PRACTICUM\JAVA\.metadata\.plugins\org.eclipse.jdt.core
+1461753767.index
+712673515.index
+3010713937.index

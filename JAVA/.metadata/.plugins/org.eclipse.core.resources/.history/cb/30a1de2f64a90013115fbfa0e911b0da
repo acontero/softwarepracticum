@@ -1,0 +1,12 @@
+package testForValidConvexHull;
+
+public class Coord {
+	int x;
+	int y;
+	
+	public Coord(int first, int second){
+		x = first;
+		y = second;
+	}
+
+}

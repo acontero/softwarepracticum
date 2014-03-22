@@ -1,0 +1,11 @@
+﻿Build started 2/11/2014 8:28:00 PM.
+     1>Project "E:\SOFTWARE PRACTICUM\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SOFTWARE PRACTICUM\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\SOFTWARE PRACTICUM\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SOFTWARE PRACTICUM\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\Project1.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1207: incompatible PDB format in 'E:\SOFTWARE PRACTICUM\Project1\Debug\Project1.pdb'; delete and rebuild
+     1>Done Building Project "E:\SOFTWARE PRACTICUM\Project1\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.77

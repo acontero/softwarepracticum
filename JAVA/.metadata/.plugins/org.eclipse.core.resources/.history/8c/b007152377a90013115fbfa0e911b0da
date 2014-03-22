@@ -1,0 +1,29 @@
+package testForValidConvexHull;
+
+public class Coord implements Comparable<Coord> {
+	int x;
+	int y;
+	
+	public Coord(int first, int second){
+		x = first;
+		y = second;
+	}
+	
+	public boolean equals(Coord other){
+	    if (this.x!=other.x) return false;
+	    if (this.y!=other.y) return false;
+	    else return true;
+	}
+	
+	@Override
+    public int compareTo(Coord other) {
+        //let's sort the employee based on id in ascending order
+        //returns a negative integer, zero, or a positive integer as this employee id
+        //is less than, equal to, or greater than the specified object.
+        return (this.id - emp.id);
+    }
+ 
+	
+	
+
+}

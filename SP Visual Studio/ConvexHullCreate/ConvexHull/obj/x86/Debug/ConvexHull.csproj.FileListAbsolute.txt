@@ -1,0 +1,32 @@
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\bin\Debug\ConvexHull.exe
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\bin\Debug\ConvexHull.pdb
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Form1.resources
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Properties.Resources.resources
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csproj.GenerateResource.Cache
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+C:\Users\acontero100\Documents\Visual Studio 2010\Projects\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+E:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+E:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\bin\Debug\ConvexHull.exe
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\bin\Debug\ConvexHull.pdb
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csprojResolveAssemblyReference.cache
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Form1.resources
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Properties.Resources.resources
+D:\SOFTWARE PRACTICUM\NEW VISUAL STUDIO STUFF\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csproj.GenerateResource.Cache
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.exe
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csprojResolveAssemblyReference.cache
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Form1.resources
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.Properties.Resources.resources
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\obj\x86\Debug\ConvexHull.csproj.GenerateResource.Cache
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\bin\Debug\ConvexHull.exe
+E:\SOFTWARE PRACTICUM\VISUAL STUDIO C++\ConvexHull\ConvexHull\bin\Debug\ConvexHull.pdb
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\obj\x86\Debug\ConvexHull.exe
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\obj\x86\Debug\ConvexHull.pdb
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\bin\Debug\ConvexHull.exe
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\bin\Debug\ConvexHull.pdb
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\obj\x86\Debug\ConvexHull.Form1.resources
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\obj\x86\Debug\ConvexHull.Properties.Resources.resources
+E:\SOFTWARE PRACTICUM\SP Visual Studio\ConvexHullCreate\ConvexHull\obj\x86\Debug\ConvexHull.csproj.GenerateResource.Cache

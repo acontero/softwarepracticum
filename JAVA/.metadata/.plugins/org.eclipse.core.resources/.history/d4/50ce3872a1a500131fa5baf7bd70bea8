@@ -1,0 +1,5 @@
+package testForValidConvexHull;
+
+public class Coord {
+
+}

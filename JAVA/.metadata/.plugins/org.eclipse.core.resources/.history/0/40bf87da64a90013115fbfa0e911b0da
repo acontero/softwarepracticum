@@ -1,0 +1,17 @@
+package testForValidConvexHull;
+
+public class Coord {
+	int x;
+	int y;
+	
+	public Coord(int first, int second){
+		x = first;
+		y = second;
+	}
+	
+	public boolean equals(Coord other){
+	    if (this.x!=other.x) return false;
+	    else return true;
+	}
+
+}

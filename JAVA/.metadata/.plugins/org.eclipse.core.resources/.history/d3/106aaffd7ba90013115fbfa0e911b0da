@@ -1,0 +1,128 @@
+package testForValidConvexHull;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.PriorityQueue;
+import java.util.Scanner;
+import java.io.*;
+
+public class testForValidConvexHull {
+
+	public static void main(String[] argz) throws FileNotFoundException{
+		String trueconvexhull = argz[0];
+		String checkconvexhull = argz[1];
+		
+		Scanner in = new Scanner(new File(trueconvexhull)); 
+		//Lists allow duplicates and returns an ordered set.
+		ArrayList<Coord> truechList = new ArrayList<Coord>();
+		while(in.hasNextInt()){
+			int x = in.nextInt();
+			int y = in.nextInt();
+			Coord c = new Coord(x,y);
+			truechList.add(c);
+		}
+		in.close();
+
+		int tsize = truechList.size();
+		int[][] truech = new int [tsize][2];
+		int i = 0;
+		for (Coord c : truechList){
+			truech[i][0] = c.x;
+			truech[i][1] = c.y;
+			i++;
+		}
+	
+//		Arrays.sort(truech, new Comparator<int[]>(){
+//            @Override
+//            public int compare(int[] o1, int[] o2) {
+//                return ((Integer) o1[0]).compareTo(o2[0]);
+//            }
+//        });
+		
+		for (Coord c : truechList){
+			System.out.println(c.x + "," + c.y);
+		}
+		System.out.println("");
+		
+		in = new Scanner(new File(checkconvexhull)); 
+		//Lists allow duplicates and returns an ordered set.
+		ArrayList<Coord> checkchList = new ArrayList<Coord>();
+		while(in.hasNextInt()){
+			int x = in.nextInt();
+			int y = in.nextInt();
+			Coord c = new Coord(x,y);
+			checkchList.add(c);
+		}
+		in.close();
+		
+		int csize = checkchList.size();
+		int[][] checkch = new int [csize][2];
+		i = 0;
+		for (Coord c : checkchList){
+			truech[i][0] = c.x;
+			truech[i][1] = c.y;
+			i++;
+		}
+		
+//		Arrays.sort(checkch, new Comparator<int[]>(){
+//            @Override
+//            public int compare(int[] o1, int[] o2) {
+//                return ((Integer) o1[0]).compareTo(o2[0]);
+//            }
+//        });
+		
+		for (Coord c : checkchList){
+			System.out.println(c.x + "," + c.y);
+		}
+		System.out.println("");
+		
+		testConvexHull(truech,checkch);
+		
+		System.out.println("Would you like to delete or add a point. Type 0 to delete and 1 to add.");
+		Scanner user = new Scanner(System.in);
+		int answer = user.nextInt();
+		while(answer != 0 && answer != 1){
+			System.out.println("You have not typed a valid answer. Please try again.");
+			System.out.println("Would you like to delete or add a point. Type 0 to delete and 1 to add.");
+			answer = user.nextInt();
+		}
+		if(answer == 0){
+			int randomNum = 0 + (int)(Math.random()*checkchList.size()); 
+			checkchList.remove(randomNum);
+		}
+		if(answer == 1){
+			int randomX = 0 + (int)(Math.random()*100); 
+			int randomY = 0 + (int)(Math.random()*100); 
+			Coord c = new Coord(randomX,randomY);
+			checkchList.add(c);
+		}
+	
+		//Re-check the new list
+		testConvexHull(truech,checkch);
+	}
+	
+	public static void testConvexHull(int[][] truech, int[][] checkch){
+		if(truech.length!=checkch.length){
+			System.out.println("TEST FAILED: This convex hull does not have the correct number of elements!");
+			return;
+		}
+		for (int i = 0; i<truech.length; i++){
+			System.out.println(truech[i][0]+ " vs. "+checkch[i][0]
+			System.out.println(truech[i][1]+ " vs. "+ checkch[i][1]);
+					
+			if(truech[i][0] != checkch[i][0]){
+				System.out.println("TEST FAILED: This convex hull is invalid!");
+				System.out.println(truech[i][0]+ " vs. "+ checkch[i][0]);
+				return;
+			}
+			else if(truech[i][1] != checkch[i][1]){
+				System.out.println("TEST FAILED: This convex hull is invalid!");
+				System.out.println(truech[i][1]+ " vs. "+ checkch[i][1]);
+				return;
+			}
+		}
+		System.out.println("TEST PASSED: This is a valid convex hull!");	
+	}	
+}
